@@ -1,0 +1,29 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install && cd ./front-end && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kem444/exam-hop-2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kem444/exam-hop-2023/issues"
+  },
+  "homepage": "https://github.com/kem444/exam-hop-2023#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "bash .husky/pre-commit"
+    }
+  }
+}
